@@ -14,7 +14,6 @@
 		EB87B0092264E28C00989322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB87B0072264E28C00989322 /* LaunchScreen.storyboard */; };
 		EB87B0112264E2E100989322 /* inventory.json in Resources */ = {isa = PBXBuildFile; fileRef = EB87B0102264E2E100989322 /* inventory.json */; };
 		EB87B0182264E46700989322 /* InventoryStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87B0172264E46700989322 /* InventoryStruct.swift */; };
-		EB87B01A2264E58C00989322 /* InventoryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87B0192264E58C00989322 /* InventoryLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		EB87B00A2264E28C00989322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB87B0102264E2E100989322 /* inventory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = inventory.json; sourceTree = "<group>"; };
 		EB87B0172264E46700989322 /* InventoryStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryStruct.swift; sourceTree = "<group>"; };
-		EB87B0192264E58C00989322 /* InventoryLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +74,6 @@
 			children = (
 				EB87B0102264E2E100989322 /* inventory.json */,
 				EB87B0172264E46700989322 /* InventoryStruct.swift */,
-				EB87B0192264E58C00989322 /* InventoryLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,7 +150,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB87B01A2264E58C00989322 /* InventoryLoader.swift in Sources */,
 				EB87B0182264E46700989322 /* InventoryStruct.swift in Sources */,
 				EB7AC562226642F800B284A7 /* InventoryTableViewController.swift in Sources */,
 				EB87AFFF2264E28C00989322 /* AppDelegate.swift in Sources */,
